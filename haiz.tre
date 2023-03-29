@@ -1,0 +1,13 @@
+ÀÄhaiz
+   ÀÄmain  0/156  Ram=1
+      ÃÄ??0??
+      ÃÄ@const62  0/16  Ram=0
+      ÃÄ@const63  0/52  Ram=0
+      ÃÄ@ITOF  0/31  Ram=2
+      ÃÄ@const66  0/30  Ram=0
+      ÃÄ@PRINTF_L32D_9600_62_63FPFPF  0/352  Ram=13
+      ³  ÃÄ@MULFF  (Inline)  Ram=13
+      ³  ÃÄ@FTOSD  (Inline)  Ram=5
+      ³  ÃÄ@DIV3232  0/66  Ram=13
+      ³  ÀÄ@DIV3232  0/66  Ram=13
+      ÀÄ@delay_ms1  0/22  Ram=1

@@ -1,0 +1,54 @@
+
+ROM used: 729 (9%)
+          729 (9%) including unused fragments
+
+          2 Average locations per line
+          56 Average locations per statement
+
+RAM used: 11 (3%) at main() level
+          36 (10%) worst case
+
+Stack used: 2 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   33    13 100  haiz.c
+  411     0   0  C:\Program Files (x86)\PICC\devices\16F887.h
+----- -----
+  444    13 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     22   3   1             @delay_ms1
+0    156  21   1   267  2.7  main
+0     16   2   0             @const62
+0     52   7   0   267  2.7  @const63
+0     31   4   2             @ITOF
+0     30   4   0             @const66
+ Inline       13             @MULFF
+ Inline        5             @FTOSD
+0     66   9  13             @DIV3232
+0    352  48  13             @PRINTF_L32D_9600_62_63FPFPF
+
+Program metrics:
+    Functions               2
+    Statements              13
+    Comments                96
+    Volume (V)              658
+    Difficilty (D)          4.6
+    Effort to implement (E) 3057
+    Time to implement (T)   3 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    62
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   725  1319  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

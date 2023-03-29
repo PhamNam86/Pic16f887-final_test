@@ -1,0 +1,90 @@
+004     @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020-023 pot
+024-025 @ITOF.P1
+024-027 @PRINTF_L32D_9600_62_63FPFPF.P2
+024     main.@SCRATCH1
+025     @delay_ms1.P1
+028     @PRINTF_L32D_9600_62_63FPFPF.P1
+029     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH1
+02A     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH2
+02B     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH3
+02C     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH4
+02D     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH5
+02E     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH6
+02F     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH7
+030     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH8
+031-034 @DIV3232.P1
+031-034 @MULFF.P2
+031-034 @FTOSD.P3
+035-038 @MULFF.P1
+035-038 @DIV3232.P2
+035     @FTOSD.@SCRATCH1
+039     @MULFF.@SCRATCH1
+039     @DIV3232.@SCRATCH1
+03A     @MULFF.@SCRATCH2
+03A     @DIV3232.@SCRATCH2
+03B     @MULFF.@SCRATCH3
+03B     @DIV3232.@SCRATCH3
+03C     @MULFF.@SCRATCH4
+03C     @DIV3232.@SCRATCH4
+03D     @MULFF.@SCRATCH5
+03D     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+0227  @delay_ms1
+023D  main
+0004  @const62
+0014  @const63
+0066  @ITOF
+0048  @const66
+00DB  @MULFF
+0161  @FTOSD
+0085  @DIV3232
+00C7  @PRINTF_L32D_9600_62_63FPFPF
+023D  @cinit
+
+Project Directory:
+    D:\Proteus 8.8\pic16f887\final-test\
+
+Project Files:
+    haiz.c
+    C:\Program Files (x86)\PICC\devices\16F887.h
+
+Units:
+    haiz.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      haiz.err
+    Ext Symbols: haiz.esym
+    INHX8:       haiz.hex
+    Symbols:     haiz.sym
+    List:        haiz.lst
+    Debug/COFF:  haiz.cof
+    Project:     haiz.PJT
+    Call Tree:   haiz.tre
+    Statistics:  haiz.sta
